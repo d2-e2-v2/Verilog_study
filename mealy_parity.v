@@ -1,23 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 13.06.2025 14:26:06
-// Design Name: 
-// Module Name: mealy_parity
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+
 module MUL_dataphath(eqz,Lda,Ldb,Ldp,Clrp,Decb,data_in,clock);
 input Lda,Ldb,Ldp,Clrp,Decb,clock;
 input [15:0] data_in;
